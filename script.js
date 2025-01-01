@@ -19,6 +19,8 @@ player1El.classList.remove('player--winner');
 player0El.classList.remove('player--active');
 player1El.classList.remove('player--active');
 player0El.classList.add('player--active');
+    document.getElementById('name--0').textContent = 'Player 1';
+document.getElementById('name--1').textContent = 'Player 2';
 gamePlaying=true;
 }
 newGame();
