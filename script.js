@@ -48,7 +48,7 @@ document.querySelector('.btn--roll').addEventListener('click',function(){
     if(gamePlaying){
     score[activePlayer]+=currentScore;
 document.querySelector('#score--'+activePlayer).textContent=score[activePlayer];
-if(score[activePlayer]>=10){
+if(score[activePlayer]>=100){
     document.querySelector('#name--'+activePlayer).textContent='YOU WON!'; gamePlaying=false;}
 else{ nextPlayer();}}})
 document.querySelector('.btn--new').addEventListener('click',function(){
